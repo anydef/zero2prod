@@ -35,3 +35,10 @@ cargo install cargo-tarpaulin
 
 ### Run 
 `cargo audit`
+
+
+# DB Migration
+
+## Install sqlx-cli
+`cargo install --version="~0.8" sqlx-cli --no-default-features --features rustls,postgres`
+
